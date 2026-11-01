@@ -1,0 +1,259 @@
+/*******************************************************/
+/******************* ## Team Area ********************/
+/*******************************************************/
+.team-slider
+    +gapLR(margin, -15px)
+    .team-item
+        +gapLR(margin, 15px)
+    .slick-dots
+        margin-top: 20px
+
+.team-item
+    margin-bottom: 30px
+    .image
+        img
+            width: 100%
+    .content
+        padding: 15px
+        background: white
+        text-align: center
+        box-shadow: 10px 4px 30px rgba(184, 184, 184, 0.25)
+        .name
+            margin-bottom: 2px
+    &.style-two
+        .image
+            position: relative
+            .icon
+                +poLB(50%, -25px)
+                color: white
+                font-size: 20px
+                cursor: pointer
+                z-index: 1
+                transform: translateX(-50%)
+                +circle($primary-color, 50px)
+                .social-style-one
+                    +poLB(0)
+                    margin: 0
+                    z-index: -1
+                    opacity: 0
+                    visibility: hidden
+                    border-radius: 30px
+                    padding-top: 10px
+                    padding-bottom: 50px
+                    transition: .4s
+                    background: $primary-color
+                    a
+                        width: 100%
+                        margin: 0
+                        text-align: center
+                        &:hover
+                            color: white
+                &:hover .social-style-one
+                    opacity: 1
+                    visibility: visible
+        .content
+            padding-top: 40px
+
+.team-item-two
+    margin-bottom: 50px
+    +res-ab(ms)
+        display: flex
+        align-items: center
+    +res-bl(ms)
+        margin-bottom: 40px
+    .image
+        flex: none
+        margin-right: 50px
+        +res-bt(lg, xl)
+            max-width: 200px
+            margin-right: 20px
+        +res-bt(ms, md)
+            max-width: 200px
+            margin-right: 20px
+        +res-bl(ms)
+            margin-right: 0
+            margin-bottom: 25px
+        img
+            width: 100%
+    .name
+        font-size: 30px
+        margin-bottom: 5px
+        +res-bt(lg, xl)
+            font-size: 26px
+        +res-bl(md)
+            font-size: 26px
+    .designation
+        font-weight: 500
+    .bottom-part
+        padding-top: 70%
+        position: relative
+        +res-bl(xl)
+            padding-top: 30%
+        +res-bl(ms)
+            padding-top: 15px
+        p
+            font-weight: 500
+        .details-btn
+            transition: .4s
+            margin-top: 5px
+            color: $base-color
+            background: transparent
+            border: 1px solid $border-color
+        .social-style-five
+            +poLB(0, 10px)
+            opacity: 0
+            transition: .4s
+            visibility: hidden
+            a
+                +size(40px)
+                line-height: 40px
+    &:hover
+        .details-btn
+            opacity: 0
+            visibility: hidden
+        .social-style-five
+            opacity: 1
+            visibility: visible
+
+
+/** Team Page Style **/
+.team-page-left-content
+    p
+        font-weight: 500
+        max-width: 430px
+
+.circle-progress-item-two
+    margin-bottom: 30px
+    h4
+        font-size: 22px
+        font-weight: 600
+        margin-bottom: 0
+        margin-top: 8px
+        letter-spacing: -0.02em
+        +res-bl(xs)
+            font-size: 20px
+
+.circle-progress-two
+    position: relative
+    .counting
+        font-size: 30px
+        +poLT(50px, 35px)
+        font-weight: 600
+        color: $heading-color
+        transform: translate(-50%)
+        font-family: $heading-font
+
+/** Team Details Style **/
+.team-details-image
+    margin-bottom: 26px
+    img
+        border-radius: 10px
+
+.team-detials-left-part
+    h3
+        font-size: 30px
+        margin-bottom: 3px
+
+.team-contact-info
+    .title
+        position: relative
+        padding-bottom: 15px
+        margin-bottom: 35px
+        &::after
+            +poLB(0)
+            content: ''
+            +size(50px, 1px)
+            background: $heading-color
+    .team-info-item
+        margin-bottom: 25px
+        span
+            display: block
+            font-size: 18px
+            margin-bottom: 5px
+        a,
+        p
+            font-size: 22px
+            font-weight: 700
+            color: $heading-color
+            font-family: $heading-font
+            +res-bl(xs)
+                font-size: 20px
+        a:hover
+            color: $primary-color
+    .social-icons .title
+        margin-bottom: 25px
+
+.team-detials-right-part
+    +res-ab(xl)
+        max-width: 780px
+        margin-left: auto
+
+.team-detials-left-part,
+.team-detials-right-part
+    h3
+        +res-bl(sm)
+            font-size: 30px
+        +res-bl(xs)
+            font-size: 25px
+
+.qualification-item
+    display: flex
+    margin-bottom: 16px
+    .number
+        flex: none
+        color: white
+        font-weight: 700
+        margin-right: 35px
+        +circle($primary-color, 45px)
+        +res-bl(xs)
+            margin-right: 20px
+
+.progress-bar-wrap
+    padding: 60px 55px 8px 50px
+    background: $heading-color
+    +res-bl(md)
+        +gapLR(padding, 20px)
+    +res-bl(xs)
+        padding-top: 40px
+        padding-bottom: 25px
+
+/** Skillbar Style **/
+.skillbar
+    height: 10px
+    position: relative
+    margin-bottom: 55px
+    display: flex
+    align-items: center
+    +res-bl(xs)
+        display: block
+    .skillbar-wrap
+        width: 100%
+    .skillbar-title,
+    .skill-bar-percent
+        color: white
+        font-size: 20px
+        font-weight: 600
+        font-family: $heading-font
+        +res-bl(md)
+            font-size: 18px
+        +res-bl(ms)
+            font-size: 16px
+    .skillbar-title
+        z-index: 2
+        flex: none
+        width: 210px
+        +res-bl(md)
+            width: 180px
+        +res-bl(ms)
+            width: 150px
+    .skill-bar-percent
+        font-weight: 700
+        +res-bl(xs)
+            +poRT(0)
+    .skillbar-bar
+        width: 0
+        height: 10px
+        position: relative
+        background-image: none
+        overflow: inherit !important
+        background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)

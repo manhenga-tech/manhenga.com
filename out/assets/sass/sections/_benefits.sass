@@ -1,0 +1,94 @@
+/*******************************************************/
+/****************** ## Benefits Area *******************/
+/*******************************************************/
+.benefits-area
+    background-size: 100%
+    background-repeat: no-repeat
+    background-position: bottom left
+
+.benefits-image-area
+	max-width: 630px
+	position: relative
+	padding-right: 80px
+	+res-bl(xl)
+		margin-bottom: 50px
+	+res-bl(ms)
+		padding-right: 40px
+	+res-bl(xs)
+		padding-right: 20px
+		padding-bottom: 20px
+	img
+		width: 100%
+	.benefit-achievement
+		+poRB(0, 30px)
+		padding: 40px
+		max-width: 305px
+		background: $primary-color
+		+res-bl(ms)
+			+gapLR(padding, 20px)
+		+res-bl(xs)
+			bottom: 0
+
+.circle-progress-achievement
+	position: relative
+	display: flex
+	align-items: center
+	i
+		+poLT(25px)
+		color: white
+		transform: rotate(-45deg)
+	.achievement-content
+		flex: none
+		margin-left: 25px
+		+res-bl(xs)
+			margin-left: 15px
+		.counting
+			color: white
+			font-size: 35px
+			font-weight: 600
+		h6
+			color: white
+			font-size: 18px
+			font-weight: 500
+			margin-bottom: 0
+	&:not(:last-child)
+		margin-bottom: 40px
+		padding-bottom: 40px
+		border-bottom: 2px solid rgba(255, 255, 255, .2)
+
+
+.accordion-item-three
+    border: 0
+    border-radius: 0
+    .accordion-button
+        border: none
+        display: flex
+        font-size: 20px
+        box-shadow: none
+        font-weight: 700
+        line-height: 1.2
+        align-items: center
+        color: white
+        background: transparent
+        border-left: 2px solid rgba(255, 255, 255, .1)
+        padding: 19px 16px 17px 40px
+        +res-bl(md)
+            font-size: 16px
+        +res-bl(ms)
+            padding: 12px 10px 12px 20px
+        .icon
+            margin-left: auto
+            transition: .4s
+        &:after
+            display: none
+        &.collapsed
+        	& .icon
+        		transform: rotate(-90deg)
+        &:not(.collapsed)
+        	border-color: white
+    .accordion-body
+    	color: white
+    	padding: 0 40px 5px 40px
+    	border-left: 2px solid white
+    	+res-bl(ms)
+    		padding-left: 20px

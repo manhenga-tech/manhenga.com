@@ -1,0 +1,57 @@
+/*******************************************************/
+/**************** ## Client Logo Area ******************/
+/*******************************************************/
+.client-logo-active
+    +gapLR(margin, -15px)
+    border-bottom: 1px solid $border-color
+    .client-logo-item
+        text-align: center
+        margin: 0 15px 30px
+        img
+            opacity: 0.5
+            transition: 0.5s
+            filter: grayscale(1)
+            display: inline-block
+        &:hover
+            img
+                opacity: 1
+                filter: grayscale(0)
+    &.style-two
+        border-bottom: 0
+
+.client-logo-area.style-two
+    border-bottom: 1px solid rgba(255, 255, 255, .1)
+    +res-bl(xs)
+        +gapLR(padding, 20px)
+    .client-logo-active
+        border-bottom: 0
+        .client-logo-item img:not(:hover)
+            opacity: 0.4
+
+.for-border-top
+    border-top: 1px solid $border-color
+    
+    
+.integration-wrap
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    +gapLR(margin, -10px)
+    .integration-item
+        +gapLR(margin, 10px)
+    
+.integration-item
+    padding: 25px
+    background: white
+    text-align: center
+    +flexcenter(center)
+    margin-bottom: 20px
+    border-radius: 15px
+    max-width: calc(33% - 20px)
+    border: 1px solid $border-color
+    box-shadow: 10px 4px 60px rgba(193, 193, 193, 0.25)
+    +res-ab(lg)
+        min-width: 115px
+        min-height: 115px
+    +res-bl(ms)
+        padding: 15px

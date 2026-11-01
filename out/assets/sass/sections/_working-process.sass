@@ -1,0 +1,205 @@
+/*******************************************************/
+/************** ## Working Process Area ***************/
+/*******************************************************/
+.working-process-area
+    .features-bg:before
+        background: $lighter-color
+    
+.working-process
+    .accordion-item
+        border: none
+        .accordion-header
+            .accordion-button
+                border: none
+                display: flex
+                box-shadow: none
+                color: $base-color
+                padding: 25px 45px
+                align-items: center
+                background: transparent
+                +res-bl(lg)
+                    padding: 15px 25px
+                .step
+                    flex: none
+                    margin-right: 4%
+                    font-weight: 500
+                    padding: 1px 16px
+                    border-radius: 30px
+                    border: 1px solid $border-color
+                    +res-bl(md)
+                        font-size: 14px
+                    +res-bl(sm)
+                        display: none
+                .title
+                    font-size: 35px
+                    transition: 0.5s
+                    font-weight: 600
+                    color: $heading-color
+                    font-family: $heading-font
+                    +res-bl(lg)
+                        font-size: 25px
+                        line-height: 1.2
+                    +res-bl(md)
+                        font-size: 20px
+                    +res-bl(xs)
+                        font-size: 18px
+                .icon
+                    flex: none
+                    +size(50px)
+                    transition: 0.5s
+                    line-height: 50px
+                    text-align: center
+                    margin-left: auto
+                    border-radius: 50%
+                    transform: rotate(-45deg)
+                    border: 1px solid $border-color
+                    +res-bl(md)
+                        +size(40px)
+                        line-height: 40px
+                &:after
+                    display: none
+                &:not(.collapsed)
+                    .title
+                        font-size: 27px
+                        +res-bl(lg)
+                            font-size: 22px
+                        +res-bl(md)
+                            font-size: 20px
+                        +res-bl(xs)
+                            font-size: 18px
+                    .icon
+                        color: white
+                        transform: rotate(45deg)
+                        background: $primary-color
+                        border-color: $primary-color
+        .accordion-body
+            padding: 15px 45px 50px
+            margin-left: calc(91px + 4%)
+            +res-bl(lg)
+                padding: 0 25px 30px
+            +res-bl(md)
+                margin-left: 0
+        &:not(:last-child)
+            margin-bottom: 10px
+
+/* Working Process Style Two */
+.working-process-image-two
+    max-width: 600px
+
+.working-process-two
+    transition: .4s
+    margin-bottom: 30px
+    padding: 25px 50px 16px
+    background: $gray-color
+    +res-bl(ms)
+        +gapLR(padding, 30px)
+    .step
+        transition: .4s
+        color: $primary-color
+    h5
+        transition: .4s
+        margin-bottom: 18px
+    p
+        transition: .4s
+    &:hover
+        background: $heading-color
+        .step, h5, p
+            color: white
+
+.working-process-three
+    margin-bottom: 45px
+    max-width: 370px
+    .step
+        transition: .4s
+        font-weight: 500
+        padding: 2px 17px
+        color: $base-color
+        margin-bottom: 14px
+        border-radius: 30px
+        display: inline-block
+        background: transparent
+        border: 1px solid $border-color
+    .title
+        position: relative
+        padding-bottom: 40px
+        margin-bottom: 35px
+        +res-bt(lg, xl)
+            font-size: 18px
+        &::before,
+        &::after
+            content: ''
+            +poLB(0)
+            transition: .4s
+        &::before
+            +size(7px)
+            border-radius: 50%
+            background: $heading-color
+        &::after
+            bottom: 3px
+            border-radius: 50%
+            background: $border-color
+            +size(calc(100% + 30px), 1px)
+    p
+        max-width: 240px
+    &:hover
+        .step
+            color: white
+            background: $primary-color
+            border-color: $primary-color
+        .title
+            &::before,
+            &::after
+                background: $primary-color
+
+/* Home Four */
+.work-process-item
+    text-align: center
+    margin-bottom: 45px
+    .number
+        +size(65px)
+        font-size: 27px
+        font-weight: 600
+        transition: 0.5s
+        border: 2px solid
+        line-height: 60px
+        border-radius: 50%
+        margin-bottom: 33px
+        display: inline-block
+    h5
+        +container(300px)
+    &:hover
+        .number
+            background: white
+            color: $primary-color
+    &.with-arrow
+        +res-ab(lg)
+            position: relative
+            &:after,
+            &:before
+                top: 24px
+                content: ''
+                +size(70%, 18px)
+                position: absolute
+                transform: translate(-50%)
+                background-image: url(../images/shapes/work-process-arrow.png)
+                background-repeat: no-repeat
+                background-size: 100%
+            &:before
+                left: 0
+            &:after
+                left: 100%
+            
+            
+.work-process-shapes
+    .shape
+        z-index: -1
+        max-width: 20%
+        position: absolute
+        &.one
+            left: 5%
+            top: 30%
+            animation: down-up-one 10s infinite
+        &.two
+            top: 10%
+            right: 6%
+            animation: down-up-two 5s infinite

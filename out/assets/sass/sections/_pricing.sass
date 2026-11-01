@@ -1,0 +1,419 @@
+/*******************************************************/
+/****************** ## Pricing Area  *******************/
+/*******************************************************/
+.pricing-tab
+    +gapTB(padding, 20px)
+    display: inline-flex
+    justify-content: center
+    border-top: 1px solid rgba(255, 255, 255, .1)
+    border-bottom: 1px solid rgba(255, 255, 255, .1)
+    +res-ab(ms)
+    	width: 330px
+    li
+        &:first-child button:after,
+        &:last-child button:before
+            content: ''
+            +size(20px)
+            transition: 0.5s
+            border-radius: 50%
+            background: white
+        &:first-child button:after
+            margin-left: 35px
+            +res-bl(ms)
+                margin-left: 15px
+        &:last-child button:before
+            margin-right: 35px
+            +res-bl(ms)
+                margin-right: 15px
+        &:first-child button:before
+            position: absolute
+            +size(50px, 30px)
+            content: ''
+            top: 50%
+            right: 0
+            z-index: -1
+            border-radius: 15px
+            background: white
+            transform: translate(50%, -50%)
+        button
+            padding: 0
+            z-index: 1
+            display: flex
+            font-weight: 600
+            transition: 0.5s
+            color: white
+            font-size: 22px
+            align-items: center
+            position: relative
+            background: transparent
+            text-transform: capitalize
+            font-family: $heading-font
+            &:focus,
+            &:hover,
+            &.active
+                color: white
+        &:first-child button.active:after,
+        &:last-child button.active:before
+            background: $primary-color
+    &.style-two
+        border-color: $border-color
+        button
+            color: $base-color
+            &:focus,
+            &:hover,
+            &.active
+                color: $heading-color
+        &:first-child button:after,
+        &:last-child button:before
+            background: $primary-color
+        &:first-child button.active:after,
+        li:last-child button.active:before
+            background: white
+            
+.pricing-tab-two
+    display: inline-flex
+    li
+        &:first-child button:after,
+        &:last-child button:before
+            content: ''
+            +size(20px)
+            transition: 0.5s
+            border-radius: 50%
+            background: $primary-color
+        &:first-child button:after
+            margin-right: 5px
+            margin-left: 35px
+            +res-bl(ms)
+                margin-left: 15px
+        &:last-child button:before
+            margin-left: 5px
+            margin-right: 35px
+            +res-bl(ms)
+                margin-right: 15px
+        &:first-child button:before
+            position: absolute
+            +size(60px, 30px)
+            content: ''
+            top: 50%
+            right: 0
+            z-index: -1
+            border-radius: 15px
+            background: $primary-color
+            transform: translate(50%, -50%)
+        button
+            padding: 0
+            z-index: 1
+            display: flex
+            font-weight: 500
+            transition: 0.5s
+            color: $base-color
+            align-items: center
+            position: relative
+            background: transparent
+            text-transform: capitalize
+            &:focus,
+            &:hover
+                color: $heading-color
+            &.active
+                font-weight: 600
+                color: $heading-color
+        &:first-child button.active:after,
+        &:last-child button.active:before
+            background: $heading-color
+            
+.text-white
+    .pricing-tab-two
+        li
+            button
+                color: rgba(255, 255, 255, 0.65)
+                &:focus,
+                &:hover,
+                &.active
+                    color: white
+            &:first-child button.active:after,
+            &:last-child button.active:before
+                background: white
+            
+.save-percent
+    font-size: 14px
+    font-weight: 600
+    padding: 0 15px
+    margin-left: 10px
+    border-radius: 10px
+    display: inline-block
+    color: $heading-color
+    background: $lighter-color
+    transform: translateY(-3px)
+    border: 1px solid $border-color
+    +res-bl(xs)
+        font-size: 10px
+        margin-left: 5px
+
+.pricing-item
+    transition: .3s
+    position: relative
+    margin-bottom: 30px
+    margin-right: -1px
+    background: transparent
+    border: 1px solid #282B46
+    padding: 40px 30px 40px 60px
+    +res-bl(lb)
+    	padding-left: 50px
+    +res-bl(xxl)
+    	padding-left: 40px
+    +res-bl(ms)
+    	padding-left: 30px
+    +res-bl(xs)
+    	+gapLR(padding, 20px)
+    .badge
+        +poRT(10px)
+        color: white
+        border-radius: 0
+        padding: 10px 17px
+        background: #FF9500
+        text-transform: uppercase
+    .title
+    	color: white
+    	font-size: 22px
+    	font-weight: 600
+    	margin-bottom: 3px
+    	+res-bl(xs)
+    		font-size: 20px
+    .text
+    	color: white
+    	margin-bottom: 42px
+    .price
+        color: white
+        display: block
+        font-size: 65px
+        font-weight: 700
+        margin-bottom: 60px
+        font-family: $heading-font
+        +res-bl(xxl)
+        	font-size: 55px
+        +res-bl(xs)
+        	margin-bottom: 40px
+        .after-text
+            font-weight: 400
+            font-size: 18px
+            +res-bl(lg)
+            	display: block
+            	margin-top: 15px
+    .included
+    	color: white
+    	font-weight: 600
+    	margin-bottom: 22px
+    .list-style-one li
+    	color: white
+    	margin-bottom: 25px
+    	+res-ab(lp)
+    		font-size: 18px
+    	i
+    		color: white
+    .theme-btn
+    	color: #D7D7D7
+    	margin-top: 25px
+    	background: transparent
+    	border: 1px solid rgba(255, 255, 255, .1)
+    &:hover
+    	background: rgba(255, 255, 255, .05)
+    	.theme-btn
+    		color: white
+    		background: $primary-color
+    		border-color: $primary-color
+    &:not(:hover)
+    	border-top-color: transparent
+    	border-bottom-color: transparent
+    &.style-two
+        margin-right: 0
+        padding: 40px 50px 25px
+        background-color: #1F1F5F
+        border: 1px solid rgba(255, 255, 255, .1)
+        +res-bl(ms)
+            +gapLR(padding, 30px)
+        +res-bl(xs)
+            +gapLR(padding, 20px)
+        .price
+            margin-bottom: 25px
+            +res-bl(xl)
+                margin-bottom: 45px
+            .after-text
+                +res-bl(lg)
+                    display: inline-block
+        .theme-btn
+            margin-bottom: 25px
+        .theme-btn
+            color: white
+            margin-top: 0
+            display: block
+            margin-left: auto
+            max-width: max-content
+            +res-bl(xl)
+                margin-left: 0
+                margin-top: 20px
+        &:hover
+            background-color: #002FF5
+            border-color: transparent
+            background-size: 100%
+            background-repeat: no-repeat
+            background-position: bottom left
+            background-image: url('../images/background/pricing-bg-shape.png')
+            .theme-btn
+                background: white
+                color: $heading-color
+                border-color: transparent
+    &.style-three
+        border-color: $border-color
+        .title
+            color: $primary-color
+        .text,
+        .list-style-one li,
+        .list-style-one li i
+            color: $base-color
+        .price,
+        .included
+            color: $heading-color
+        &:hover
+            background: #fafafa
+        &:not(:hover)
+            border-top-color: transparent
+            border-bottom-color: transparent
+            .theme-btn
+                color: $base-color
+                border-color: $border-color
+            
+    &.style-four
+        background: white
+        border-radius: 20px
+        border: 1px solid $border-color
+        +gapTB(padding, 40px)
+        +res-ab(lg)
+            +gapLR(padding, 50px)
+        .title-price
+            display: flex
+            align-items: center
+            justify-content: space-between
+            .title
+                color: white
+                padding: 3px 10px
+                border-radius: 5px
+                margin-bottom: 22px
+                letter-spacing: -0.66px
+                background: $primary-color
+            .price
+                font-size: 48px
+                margin-bottom: 15px
+                color: $heading-color
+                .next
+                    font-size: 16px
+        .text
+            margin-top: 25px
+            margin-bottom: 30px
+            color: $heading-color
+        .icon-list
+            margin-bottom: 20px
+            li
+                display: flex
+                font-weight: 600
+                line-height: 1.3
+                @extend %heading
+                &:not(:last-child)
+                    margin-bottom: 20px
+                i
+                    flex: none
+                    margin-top: 2px
+                    font-weight: 400
+                    margin-right: 15px
+                    color: $primary-color
+                &.hide
+                    opacity: 0.1
+        .footer-text
+            margin: 10px 0 -5px 25px
+        &:hover
+            border-color: white
+            box-shadow: 0px 10px 60px rgba(141, 141, 141, 0.10)
+            .theme-btn
+                background-position: 0 0
+
+.pricing-area-two
+    &::after
+        +poLT(0)
+        content: ''
+        +size(100%)
+        z-index: -1
+        background: rgba(24, 24, 94, 0.85)
+    
+    
+.pricing-two-item
+    background: white
+    position: relative
+    border-radius: 7px
+    padding: 33px 30px
+    margin-bottom: 30px
+    border: 1px solid $border-color
+    .badge
+        +poRT(10px)
+        padding: 8px 15px
+        border-radius: 7px
+        background: #28F679
+        color: $heading-color
+        text-transform: uppercase
+    .title
+        +res-ab(xs)
+            font-size: 20px
+    .text
+        margin-bottom: 30px
+    .price
+        @extend %h2
+        display: block
+        margin-bottom: 35px
+        .after-text
+            font-weight: 400
+            color: $base-color
+            font-size: $base-size
+            font-family: $base-font
+    .theme-btn
+        width: 100%
+        margin-bottom: 30px
+        +gapTB(padding, 9px)
+        border: 1px solid $border-color
+        &:hover
+            color: white
+            background: $primary-color
+    .list-style-three.small
+        li
+            font-size: 14px
+            font-weight: 400
+            &:before
+                font-size: 1em
+            &:not(:last-child)
+                margin-bottom: 6px
+            &.hide
+                opacity: 0.3
+    
+    
+/* BG Circle shapes */
+.bg-circle-shapes
+    z-index: -1
+    left: 50%
+    bottom: 0
+    +size(1090px)
+    position: absolute
+    transform: translate(-50%, 50%)
+    +res-bl(xl)
+        +size(700px)
+    +res-bl(md)
+        +size(500px)
+    span
+        +absmiddle()
+        border-radius: 50%
+        background: rgba(21, 31, 57, 0.02)
+        border: 1px solid rgba(21, 31, 57, 0.07)
+        &:nth-child(1)
+            +size(100%)
+        &:nth-child(2)
+            +size(80%)
+        &:nth-child(3)
+            +size(60%)
+        &:nth-child(4)
+            +size(40%)

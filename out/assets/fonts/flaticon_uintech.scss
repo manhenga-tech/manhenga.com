@@ -1,0 +1,185 @@
+$flaticon_uintech-font: "flaticon_uintech";
+
+@font-face {
+    font-family: $flaticon_uintech-font;
+    src: url("./flaticon_uintech.woff2?9431e72dd24e161440a3ce3d03b1858d") format("woff2"),
+url("./flaticon_uintech.woff?9431e72dd24e161440a3ce3d03b1858d") format("woff"),
+url("./flaticon_uintech.eot?9431e72dd24e161440a3ce3d03b1858d#iefix") format("embedded-opentype"),
+url("./flaticon_uintech.ttf?9431e72dd24e161440a3ce3d03b1858d") format("truetype"),
+url("./flaticon_uintech.svg?9431e72dd24e161440a3ce3d03b1858d#flaticon_uintech") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_uintech !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_uintech-map: (
+    "nanotechnology": "\f101",
+    "technology": "\f102",
+    "it": "\f103",
+    "network-security": "\f104",
+    "cloud": "\f105",
+    "data-management": "\f106",
+    "idea": "\f107",
+    "grow": "\f108",
+    "data-protection": "\f109",
+    "graphic-design": "\f10a",
+    "flexibility": "\f10b",
+    "layers": "\f10c",
+    "globe-grid": "\f10d",
+    "technical-support": "\f10e",
+    "big-data-analytics": "\f10f",
+    "integrations": "\f110",
+    "nanotechnology-1": "\f111",
+    "expert-team": "\f112",
+    "experts": "\f113",
+    "loyal-customer": "\f114",
+    "human-resources": "\f115",
+    "algorithm": "\f116",
+    "troubleshooting": "\f117",
+    "service": "\f118",
+    "technical-support-1": "\f119",
+    "technical-support-2": "\f11a",
+    "cloud-network": "\f11b",
+    "cyber-security": "\f11c",
+    "layer": "\f11d",
+    "cloud-1": "\f11e",
+    "cyber-security-1": "\f11f",
+    "cloud-computing": "\f120",
+    "data": "\f121",
+    "cyber-security-2": "\f122",
+    "recovery": "\f123",
+    "protection": "\f124",
+    "protection-1": "\f125",
+    "quality": "\f126",
+    "experience": "\f127",
+    "professional-success": "\f128",
+);
+
+.flaticon-nanotechnology:before {
+    content: map-get($flaticon_uintech-map, "nanotechnology");
+}
+.flaticon-technology:before {
+    content: map-get($flaticon_uintech-map, "technology");
+}
+.flaticon-it:before {
+    content: map-get($flaticon_uintech-map, "it");
+}
+.flaticon-network-security:before {
+    content: map-get($flaticon_uintech-map, "network-security");
+}
+.flaticon-cloud:before {
+    content: map-get($flaticon_uintech-map, "cloud");
+}
+.flaticon-data-management:before {
+    content: map-get($flaticon_uintech-map, "data-management");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon_uintech-map, "idea");
+}
+.flaticon-grow:before {
+    content: map-get($flaticon_uintech-map, "grow");
+}
+.flaticon-data-protection:before {
+    content: map-get($flaticon_uintech-map, "data-protection");
+}
+.flaticon-graphic-design:before {
+    content: map-get($flaticon_uintech-map, "graphic-design");
+}
+.flaticon-flexibility:before {
+    content: map-get($flaticon_uintech-map, "flexibility");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon_uintech-map, "layers");
+}
+.flaticon-globe-grid:before {
+    content: map-get($flaticon_uintech-map, "globe-grid");
+}
+.flaticon-technical-support:before {
+    content: map-get($flaticon_uintech-map, "technical-support");
+}
+.flaticon-big-data-analytics:before {
+    content: map-get($flaticon_uintech-map, "big-data-analytics");
+}
+.flaticon-integrations:before {
+    content: map-get($flaticon_uintech-map, "integrations");
+}
+.flaticon-nanotechnology-1:before {
+    content: map-get($flaticon_uintech-map, "nanotechnology-1");
+}
+.flaticon-expert-team:before {
+    content: map-get($flaticon_uintech-map, "expert-team");
+}
+.flaticon-experts:before {
+    content: map-get($flaticon_uintech-map, "experts");
+}
+.flaticon-loyal-customer:before {
+    content: map-get($flaticon_uintech-map, "loyal-customer");
+}
+.flaticon-human-resources:before {
+    content: map-get($flaticon_uintech-map, "human-resources");
+}
+.flaticon-algorithm:before {
+    content: map-get($flaticon_uintech-map, "algorithm");
+}
+.flaticon-troubleshooting:before {
+    content: map-get($flaticon_uintech-map, "troubleshooting");
+}
+.flaticon-service:before {
+    content: map-get($flaticon_uintech-map, "service");
+}
+.flaticon-technical-support-1:before {
+    content: map-get($flaticon_uintech-map, "technical-support-1");
+}
+.flaticon-technical-support-2:before {
+    content: map-get($flaticon_uintech-map, "technical-support-2");
+}
+.flaticon-cloud-network:before {
+    content: map-get($flaticon_uintech-map, "cloud-network");
+}
+.flaticon-cyber-security:before {
+    content: map-get($flaticon_uintech-map, "cyber-security");
+}
+.flaticon-layer:before {
+    content: map-get($flaticon_uintech-map, "layer");
+}
+.flaticon-cloud-1:before {
+    content: map-get($flaticon_uintech-map, "cloud-1");
+}
+.flaticon-cyber-security-1:before {
+    content: map-get($flaticon_uintech-map, "cyber-security-1");
+}
+.flaticon-cloud-computing:before {
+    content: map-get($flaticon_uintech-map, "cloud-computing");
+}
+.flaticon-data:before {
+    content: map-get($flaticon_uintech-map, "data");
+}
+.flaticon-cyber-security-2:before {
+    content: map-get($flaticon_uintech-map, "cyber-security-2");
+}
+.flaticon-recovery:before {
+    content: map-get($flaticon_uintech-map, "recovery");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon_uintech-map, "protection");
+}
+.flaticon-protection-1:before {
+    content: map-get($flaticon_uintech-map, "protection-1");
+}
+.flaticon-quality:before {
+    content: map-get($flaticon_uintech-map, "quality");
+}
+.flaticon-experience:before {
+    content: map-get($flaticon_uintech-map, "experience");
+}
+.flaticon-professional-success:before {
+    content: map-get($flaticon_uintech-map, "professional-success");
+}

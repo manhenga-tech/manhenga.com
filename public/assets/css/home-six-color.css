@@ -1,0 +1,39 @@
+/*******************************************************/
+/****************** ## Home Four Color ******************/
+/*******************************************************/
+body {
+    --tekprof-base-font: "Roboto", sans-serif;
+    --tekprof-heading-font: "Poppins", sans-serif;
+    --tekprof-primary-color: #30f0b6;
+    --tekprof-secondary-color: #674df3;
+}
+
+.bgc-secondary {
+    background-color: var(--tekprof-secondary-color);
+}
+
+.section-title .sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    color: var(--tekprof-secondary-color);
+}
+
+.bgc-gray {
+    background-color: #1b1f2e;
+}
+
+.list-style-one li i {
+    color: var(--tekprof-secondary-color)
+}
+
+.list-style-one li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 991px) {
+    .section-title h2 {
+        font-size: 42px;
+    }
+}

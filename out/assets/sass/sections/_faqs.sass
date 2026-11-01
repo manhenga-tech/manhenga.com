@@ -1,0 +1,62 @@
+/*******************************************************/
+/******************** ## FAQs Area *********************/
+/*******************************************************/
+.faqs-images
+    max-width: 680px
+    display: flex
+    align-items: center
+    justify-content: center
+    img
+        margin-bottom: 30px
+        +res-bl(xs)
+        	margin-bottom: 15px
+    .left
+        text-align: right
+        margin-right: 30px
+        +res-bl(xs)
+        	margin-right: 15px
+
+.accordion-item-two
+    border: 0
+    border-radius: 0
+    background: $gray-color
+    &:not(:last-child)
+        margin-bottom: 10px
+    .accordion-button
+        border: none
+        display: flex
+        font-size: 18px
+        box-shadow: none
+        font-weight: 700
+        line-height: 1.2
+        align-items: center
+        color: $heading-color
+        background: transparent
+        padding: 19px 16px 17px 20px
+        +res-bl(md)
+            font-size: 16px
+        +res-bl(ms)
+            padding: 12px 10px 12px 20px
+        .icon
+            margin-left: auto
+        &:after
+            display: none
+        &.collapsed
+            &:after
+                transform: rotate(0deg)
+        &:not(.collapsed)
+        	color: white
+        	background: $primary-color
+        	&:after
+        		color: white
+    .accordion-body
+    	color: white
+    	padding: 0 20px 5px 20px
+    	background-color: $primary-color
+    	background-size: 100%
+    	background-repeat: no-repeat
+    	background-position: bottom left
+    	background-image: url('../images/faqs/faq-dot-shape.png')
+
+.faqs-fluid-wrap
+    background: #fafafa

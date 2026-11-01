@@ -1,0 +1,107 @@
+/*******************************************************/
+/****************** ## Contact Forms ******************/
+/*******************************************************/
+.for-contact-bg
+    +poLB(0)
+    z-index: -2
+    +size(100%, 120%)
+    text-align: center
+    background: $lighter-color
+
+.contact-image-part
+    padding-left: 13%
+    .experience-years
+        +poLB(0, 10%)
+        max-width: 265px
+        padding: 36px 40px
+        background: $primary-color
+        clip-path: polygon(74% 0%, 100% 23%, 100% 100%, 0 100%, 0 0)
+        +res-bl(xs)
+            max-width: 205px
+            padding: 25px 20px
+        h6
+            margin-bottom: 0
+            +res-ab(xs)
+                font-size: 20px
+        .title
+            display: flex
+            max-width: 150px
+            align-items: center
+            margin-bottom: 18px
+            padding-bottom: 15px
+            border-bottom: 1px solid $heading-color
+            i
+                margin-left: 20px
+                transform: rotate(-45deg)
+    &.style-two
+        padding-left: 0
+        padding-right: 13%
+        .experience-years
+            left: auto
+            right: 0
+            
+/* Contact Page */
+.contact-page-content
+    +res-ab(lg)
+        max-width: 420px
+    h2
+        +res-bt(lg, xl)
+            font-size: 40px
+    ul
+        max-width: 285px
+        li
+            display: flex
+            font-size: 20px
+            &:not(:last-child)
+                margin-bottom: 12px
+            i
+                min-width: 20px
+                margin-top: 7px
+                margin-right: 10px
+                color: $primary-color
+
+.contact-page-form
+    padding: 35px 50px 30px
+    background: #fafafa
+    border: 1px solid $border-color
+    +res-bl(ms)
+        +gapLR(padding, 25px)
+    h4
+        margin-bottom: 5px
+        +res-bl(xs)
+            font-size: 20px
+    label
+        font-weight: 600
+        margin-bottom: 12px
+        color: $heading-color
+        font-family: $heading-font
+        +res-ab(xs)
+            font-size: 18px
+    .form-control
+        font-weight: 400
+        color: $base-color
+        border-color: transparent
+        &:focus
+            border-color: $border-color
+            
+.our-location
+    iframe
+        height: 650px
+        +res-bl(xxl)
+            height: 500px
+        +res-bl(xl)
+            height: 400px
+        +res-bl(md)
+            height: 300px
+    
+/* Contact Form Validation */
+.has-error
+    .with-errors
+        color: red
+        margin-top: 5px
+        margin-bottom: -15px
+#msgSubmit
+    font-size: 20px
+    margin-bottom: 0
+    margin-top: 10px
+    

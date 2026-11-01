@@ -1,0 +1,56 @@
+/*******************************************************/
+/***************** ## Get Consultations ****************/
+/*******************************************************/
+.get-consultations-area
+	&::after
+		+poLT(0)
+		content: ''
+		z-index: -1
+		+size(100%)
+		background: linear-gradient(180deg, rgba(24, 24, 94, 0.4) 5.71%, #18185E 92.06%)
+	h2
+		+res-ab(lg)
+			font-size: 70px
+
+.get-consultation-content
+	max-width: 520px
+
+.consultation-bottom-content
+	display: flex
+	align-items: center
+	flex-wrap: wrap
+	.theme-btn
+		flex: none
+		margin-right: 30px
+	.email-box
+		display: flex
+		align-items: center
+		.icon
+			flex: none
+			+size(60px)
+			font-size: 22px
+			line-height: 60px
+			text-align: center
+			margin-right: 20px
+			border-radius: 50%
+			border: 1px solid white
+		.content
+			span
+				display: block
+				font-size: 14px
+				font-weight: 500
+				margin-bottom: -5px
+			a
+				font-size: 18px
+				font-weight: 600
+				margin-top: -5px
+				&:hover
+					color: white
+
+.techmax-logo
+	max-width: 325px
+	padding: 48px 20px
+	text-align: center
+	background: $primary-color
+	+res-bl(xs)
+		+gapTB(padding, 30px)

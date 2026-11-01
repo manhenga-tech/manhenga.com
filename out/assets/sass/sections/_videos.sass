@@ -1,0 +1,34 @@
+/*******************************************************/
+/****************** ## Videos Area ********************/
+/*******************************************************/ 
+/* Video Play */
+.video-play
+    +size(45px)
+    font-size: 10px
+    text-align: center
+    line-height: 45px
+    background: white
+    border-radius: 50%
+    display: inline-block
+    color: $primary-color
+        
+/* Video Play With Text */
+.video-play-text
+    font-size: 14px
+    align-items: center
+    display: inline-flex
+    > i
+        transition: 0.5s
+        margin-right: 20px
+        color: $primary-color
+        +circle(transparent, 55px)
+        border: 1px solid $border-color
+    span
+        font-weight: 600
+        color: $heading-color
+        font-family: $heading-font
+    &:hover
+        > i
+            color: white
+            background: $primary-color
+            border-color: $primary-color

@@ -1,0 +1,33 @@
+/*******************************************************/
+/****************** ## Home Four Color ******************/
+/*******************************************************/
+body {
+    --tekprof-primary-color: #146EF5;
+    --tekprof-primary-rgb: 20, 110, 245;
+    --tekprof-heading-font: "Inter", sans-serif;
+    --tekprof-heading-font: "Manrope", sans-serif;
+}
+
+.theme-btn, a.theme-btn {
+    border-radius: 10px;
+}
+
+.section-title h2 {
+    line-height: 1.2;
+    margin-bottom: 22px;
+    letter-spacing: -1px;
+}
+
+.text-white .subtitle {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.bgc-secondary {
+    background-color: #28f67a;
+}
+
+@media only screen and (min-width: 1200px) {
+    .section-title h2 {
+        font-size: 44px;
+    }
+}

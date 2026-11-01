@@ -1,0 +1,322 @@
+/*******************************************************/
+/******************** ## Hero Area ********************/
+/*******************************************************/
+.hero-area
+    background-size: 100%
+    background-repeat: no-repeat
+    background-position: bottom left
+    &.style-three
+        &::after
+            +poLB(calc(50% - 500px), calc(100% + 80px))
+            +size(1000px)
+            background: $primary-color
+            filter: blur(150px)
+            animation: leftRightTwo 8s infinite
+        .hero-content
+            .sub-title
+                color: white
+                margin-bottom: 25px
+            > p
+                color: white
+                font-size: 24px
+                margin-top: 40px
+                line-height: 1.7
+                margin-bottom: 30px
+                +res-bl(md)
+                    font-size: 20px
+                +res-bl(sm)
+                    font-size: 18px
+
+.hero-content
+    .sub-title
+        font-size: 24px
+        font-weight: 600
+        display: inline-block
+        color: $primary-color
+        +res-bl(sm)
+            font-size: 20px
+        +res-bl(xs)
+            font-size: 16px
+    h1
+        line-height: 1
+        font-size: 100px
+        margin-bottom: 30px
+        letter-spacing: -0.03em
+        +res-bl(xxl)
+            font-size: 80px
+        +res-bl(xl)
+            font-size: 65px
+        +res-bl(md)
+            font-size: 55px
+        +res-bl(sm)
+            font-size: 45px
+            line-height: 1.2
+        +res-bl(ms)
+            font-size: 38px
+        +res-bl(xs)
+            font-size: 35px
+    > p
+        max-width: 650px
+        font-weight: 500
+        line-height: 1.9
+        margin-bottom: 25px
+        color: $heading-color
+        +res-ab(sm)
+            font-size: 18px
+    &.style-two
+        h1
+            line-height: 1.1
+        > p
+            font-size: 24px
+            line-height: 1.7
+            color: $base-color
+            +res-bl(lg)
+                font-size: 22px
+            +res-bl(md)
+                font-size: 20px
+            +res-bl(sm)
+                font-size: 18px
+                
+    &.style-four
+        .subtitle-three
+            font-size: 20px
+            font-family: $heading-font
+        h1
+            +res-ab(xl)
+                font-size: 75px
+        h4
+            font-weight: 500
+            margin-bottom: 20px
+            +res-bl(ms)
+                font-size: 20px
+        .newsletter-form
+            max-width: 850px
+            +gapLR(margin, auto)
+            border: 2px solid rgba(70, 78, 226, 0.2)
+            box-shadow: 0px 0px 60px rgba(70, 78, 226, 0.2)
+            border-radius: 20px
+            label
+                font-size: 20px
+            input
+                font-family: $base-font
+            button
+                border-radius: 20px
+                background: $primary-color
+    
+.hero-image
+    +res-ab(lb)
+        margin-right: -150px
+    &.radius-animation
+        img
+            animation: borderRadius1 8s ease-in-out infinite
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%
+    
+.hero-image-two
+    max-width: max-content
+    margin-left: auto
+    padding-left: 50px
+    &::after
+        +poRB(35px, 0)
+        content: ''
+        +size(70%, 81%)
+        max-width: 440px
+        background: #F2E5DD
+        z-index: -1
+        animation: leftRightOne 8s ease-in-out infinite
+
+.hero-two-shape
+    +poLT(0)
+    +size(100%)
+    z-index: -1
+    .shape
+        position: absolute
+    .shape-one
+        top: 11%
+        left: 6%
+        max-width: 10%
+        animation: down-up-one 8s infinite
+    .shape-two
+        top: 11%
+        right: -2%
+        max-width: 42%
+        animation: down-up-one 8s infinite
+        +res-bl(lg)
+            top: 60%
+
+.hero-image-three
+    max-width: 750px
+    position: relative
+    padding-top: 125%
+    +res-ab(lb)
+        width: 140%
+        margin-left: -30px
+    +res-bl(lg)
+        padding-top: 100%
+    .image
+        position: absolute
+        &.one
+            left: 0
+            bottom: 0
+            width: 48%
+            z-index: 1
+            +res-bt(lg, lb)
+                bottom: 10%
+        &.two
+            right: 0
+            bottom: 0
+            width: 48%
+            z-index: 1
+            +res-bt(lg, lb)
+                bottom: 10%
+        &.three
+            left: 50%
+            bottom: 32%
+            width: 18%
+            transform: translateX(-50%)
+        &.four
+            left: 50%
+            bottom: 58%
+            width: 25%
+            transform: translateX(-50%)
+            +res-bl(lb)
+                bottom: 50%
+
+.hero-bottom-image-area
+    img
+        width: 100%
+        
+.trusted-clients
+    display: flex
+    align-items: center
+    img
+        +size(65px)
+        border-radius: 50%
+        border: 2px solid white
+        +res-bl(sm)
+            +size(50px)
+        &:not(:last-child)
+            margin-right: -15px
+        
+.hero-content-five
+    h1, .h1
+        color: white
+        line-height: 1
+        font-size: 150px
+        margin-bottom: 0
+        font-weight: 800
+        letter-spacing: -0.03em
+        br
+            +res-bl(lg)
+                display: none
+        +res-bl(xxl)
+            font-size: 130px
+        +res-bl(xl)
+            font-size: 105px
+        +res-bl(lg)
+            font-size: 85px
+        +res-bl(md)
+            font-size: 60px
+            line-height: 1.1
+        +res-bl(sm)
+            font-size: 50px
+        +res-bl(ms)
+            font-size: 40px
+            line-height: 1.2
+        +res-bl(xs)
+            font-size: 35px
+    .content
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: space-between
+        .h1
+            +res-ab(xxl)
+                margin-right: 5%
+            +res-bl(lg)
+                margin-bottom: 10px
+        p
+            max-width: 400px
+            font-weight: 500
+            margin-bottom: 0
+            margin-top: 30px
+            +res-ab(ms)
+                font-size: 18px
+        .theme-btn
+            margin-top: 25px
+            
+            
+.hero-five-clients
+    z-index: 1
+    position: relative
+    padding: 50px 0 50px 50px
+    +res-bl(sm)
+        padding-left: 25px
+    &:before
+        +poLT(0)
+        content: ''
+        z-index: -1
+        +size(30%, 100%)
+        border: 1px solid rgba(255, 255, 255, 0.2)
+    .client-logos
+        margin-right: -30px
+        img
+            margin-top: 15px
+            margin-right: 30px
+            max-width: calc(50% - 35px)
+            
+            
+        
+.hero-five-video-wrap
+    img
+        width: 100%
+        border-radius: 10px
+    .video-play
+        +absmiddle()
+       
+.hero-five-video-wrap .video-play
+    font-size: 18px
+    padding-left: 4px
+    +circle(white, 80px)
+    display: inline-block
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7)
+    animation: pulse 1.5s infinite linear
+    &.color-primary
+        color: $primary-color
+    +res-bl(ms)
+        +size(60px)
+        font-size: 14px
+        line-height: 60px
+ 
+            
+/* Hero Section Six */
+.hero-area-four
+    .hero-bg-shapes
+        +poLT(0)
+        +size(100%)
+        z-index: -1
+        background: white
+        border-radius: 60px 60px 0 0
+        +res-bl(lb)
+            border-radius: 30px 30px 0 0
+        .shape
+            z-index: -1
+            max-width: 20%
+            position: absolute
+            &.one
+                left: 5%
+                top: 40%
+                animation: down-up-one 10s infinite
+            &.two
+                top: 35%
+                right: 6%
+                animation: down-up-two 5s infinite
+    .hero-content.style-four h1 span
+        color: $primary-color
+        
+        
+.radius-shape-top
+    margin-top: -100px
+    border-radius: 100px 100px 0 0
+    +res-bl(lg)
+        margin-top: -50px
+        border-radius: 50px 50px 0 0

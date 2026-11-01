@@ -1,0 +1,9 @@
+/*******************************************************/
+/***************** ## Home Three Color *****************/
+/*******************************************************/
+body {
+  --tekprof-primary-color: #002FF5;
+  --tekprof-heading-color: #18185E;
+  --tekprof-blue-color: #18185E;
+  --tekprof-gray-color: #EDF0FE;
+}

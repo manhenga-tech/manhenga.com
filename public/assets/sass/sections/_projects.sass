@@ -1,0 +1,154 @@
+/*******************************************************/
+/****************** ## Projects Area  *******************/
+/*******************************************************/
+/* Latest work */
+.latest-work-item
+    display: flex
+    cursor: pointer
+    transition: 0.5s
+    position: relative
+    border-bottom: 1px solid $border-color
+    &:first-child
+        border-top: 1px solid $border-color
+    .content-wrap
+        width: 100%
+        .title
+            line-height: 1
+            margin-bottom: 0
+            &.h1
+                +res-bl(lg)
+                    font-size: 75px
+                +res-bl(md)
+                    font-size: 60px
+                +res-bl(ms)
+                    font-size: 50px
+                +res-bl(xs)
+                    font-size: 40px
+            &.h2
+                display: block
+                font-size: 65px
+                margin-bottom: 28px
+                +res-bl(md)
+                    font-size: 50px
+                +res-bl(ms)
+                    font-size: 40px
+                +res-bl(xs)
+                    font-size: 30px
+    .normal-area
+        padding: 30px
+        +res-ab(sm)
+            display: flex
+            align-items: flex-end
+        +res-bl(lg)
+            padding-left: 0
+        .category-wrap
+            flex: none
+            width: 160px
+            display: block
+            +res-bl(md)
+                width: 125px
+            .category
+                padding: 0 15px
+                font-size: 14px
+                font-weight: 600
+                background: white
+                border-radius: 10px
+                margin-bottom: 10px
+                color: $heading-color
+                display: inline-block
+                border: 1px solid $heading-color
+    .active-area
+        padding: 40px 30px
+        +res-bl(xs)
+            padding-left: 20px
+            padding-right: 10px
+        +res-ab(lg)
+            display: flex
+            align-items: center
+            .image
+                width: 35%
+                flex: none
+                margin-right: 5%
+        .image
+            +res-bl(lg)
+                margin-right: 50px
+                margin-bottom: 35px
+        .content
+            max-width: 500px
+            p
+                margin-bottom: 0
+    .detail-btn
+        font-size: 35px
+        +poRT(30px, 50%)
+        margin-left: auto
+        color: $heading-color
+        transform: rotate(-45deg) translate(20px, -50%)
+        +res-bl(lg)
+            right: 0
+            transform: rotate(-45deg) translate(10px, -50%)
+        +res-bl(sm)
+            top: 40px
+        
+    &.active
+        background: white
+        border-radius: 10px
+        border: 1px solid $heading-color
+        .detail-btn
+            top: 45px
+            color: $primary-color
+            transform: rotate(45deg) translate(0)
+            +res-bl(lg)
+                right: 25px
+            +res-bl(xs)
+                right: 13px
+                
+                
+/* Project Item Two */
+.project-item-two
+    position: relative
+    margin-bottom: 30px
+    img
+        width: 100%
+    .content
+        +size(100%)
+        +poLT(0)
+        opacity: 0
+        padding: 25px
+        display: flex
+        transition: 0.5s
+        text-align: center
+        align-items: center
+        flex-direction: column
+        justify-content: center
+        background: transparentize(#23293b, 0.25)
+        .plus
+            opacity: 0
+            color: white
+            font-size: 75px
+            transition: 0.5s
+            margin-bottom: 15px
+            transform: translateY(-25px)
+        h4
+            opacity: 0
+            margin-bottom: 0
+            transition: 0.5s
+            line-height: 1.65
+            transform: translateY(-25px)
+            a
+                color: white
+    &:hover
+        .content
+            opacity: 1
+            .plus, h4
+                opacity: 1
+                transform: translateY(0)
+            .plus
+                transition-delay: 0.2s
+                
+.project-area-three
+    &:after
+        content: ''
+        +poLT(0)
+        z-index: -1
+        +size(100%, 75%)
+        background: $heading-color

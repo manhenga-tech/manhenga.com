@@ -1,0 +1,206 @@
+/*******************************************************/
+/****************** ## Features Area *******************/
+/*******************************************************/
+.features-area
+    z-index: 1
+    position: relative
+    &:before
+        +poLT(0)
+        z-index: -1
+        content: ''
+        +size(100%, 50%)
+        background: linear-gradient(180deg, rgba(15, 61, 58, 0.06) 0%, rgba(15, 61, 58, 0) 100%)
+
+.features-bg
+    z-index: 2
+    position: relative
+    &:before
+        content: ''
+        z-index: -1
+        +poLT(-10%, 0)
+        background: white
+        +size(120%, 100%)
+
+.feature-item
+    position: relative
+    margin-bottom: 30px
+    padding-bottom: 75px
+    .image
+        img
+            width: 100%
+    .content
+        width: 86%
+        +poLB(7%, 0)
+        transition: 0.5s
+        background: white
+        text-align: center
+        padding: 25px 33px 12px
+        box-shadow: 10px 4px 60px rgba(24, 17, 35, 0.1)
+        +res-bl(xs)
+            left: 5%
+            width: 90%
+            +gapLR(padding, 15px)
+        .title
+            margin-bottom: 5px
+            +res-bl(xs)
+                font-size: 22px
+                margin-bottom: 8px
+        p
+            transition: 0.5s
+        .read-more
+            margin-top: -7px
+            margin-bottom: 12px
+    &:hover
+        .content
+            background: $primary-color
+            box-shadow: 10px 4px 60px rgba(15, 61, 58, 0.5)
+            h4 a, p, .read-more
+                color: white
+            
+    &.style-two
+        padding-bottom: 0
+        .image
+            position: relative
+            &:after
+                +poLB(0)
+                content: ''
+                +size(100%)
+                background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #1e1e1e 100%)
+        .content
+            left: 0
+            z-index: 2
+            width: 100%
+            box-shadow: none
+            text-align: left
+            padding: 40px 60px
+            background: transparent
+            +res-bl(lb)
+                +gapLR(padding, 40px)
+            +res-bl(xs)
+                padding: 20px 25px
+            .tags
+                display: flex
+                flex-wrap: wrap
+                margin-bottom: 10px
+                margin-right: -10px
+                a
+                    color: white
+                    font-weight: 500
+                    padding: 2px 14px
+                    margin: 0 10px 10px 0
+                    background: rgba(255, 255, 255, 0.1)
+                    border: 1px solid rgba(255, 255, 255, 0.1)
+                    +res-bl(xs)
+                        font-size: 14px
+                        padding: 1px 12px
+            .title
+                font-weight: 600
+                margin-bottom: 15px
+                +res-bl(lb)
+                    font-size: 30px
+                +res-bt(md, lg)
+                    font-size: 28px
+                +res-bl(xs)
+                    font-size: 25px
+                a
+                    color: white
+            p
+                color: white
+                margin-bottom: 28px
+                +res-bt(md, lg)
+                    display: none
+                +res-bl(ms)
+                    display: none
+
+    &.style-three
+        z-index: 1
+        transition: 0.5s
+        overflow: hidden
+        background: white
+        text-align: center
+        margin-bottom: 30px
+        position: relative
+        padding: 35px 20px
+        box-shadow: 10px 0 60px rgba(103, 77, 243, 0.1)
+        +res-bl(md)
+            margin-top: 0
+        &:before
+            content: ''
+            +poLT(0)
+            z-index: -1
+            opacity: 0
+            transition: 0.5s
+            +size(195px, 133px)
+            transform: translate(-100%, -100%)
+            background: url(../images/background/feature-bg.png) no-repeat
+        .icon
+            line-height: 1
+            font-size: 65px
+            transition: 0.5s
+            margin-bottom: 10px
+            color: var(--tekprof-secondary-color)
+        h5, h4, p
+            transition: 0.5s
+        .more-btn
+            font-size: 18px
+            +size(43px, 40px)
+            line-height: 38px
+            display: inline-block
+            border: 1px solid $border-color
+        &:hover
+            background: var(--tekprof-secondary-color)
+            &:before
+                opacity: 1
+                transform: translate(0)
+            .icon, h5, h5 a, h4, h4 a, p
+                color: white
+            .more-btn
+                color: var(--tekprof-secondary-color)
+                background: $primary-color
+                border-color: $primary-color
+                    
+.feature-area-two
+    transform: translateY(-75px)
+    
+    
+/* Feature Style Two */
+.feature-item-two
+    margin-bottom: 25px
+    .icon
+        line-height: 1
+        font-size: 50px
+        margin-bottom: 15px
+        color: $primary-color
+    p
+        margin-bottom: 0
+    
+/* Feature Style Three */
+.feature-item-three
+    max-width: 300px
+    +res-ab(lg)
+        padding-top: 95px
+        padding-bottom: 80px
+    +res-bl(lg)
+        margin-bottom: 50px
+    .icon
+        line-height: 1
+        font-size: 50px
+        margin-bottom: 20px
+        color: $primary-color
+    &.style-two
+        padding-top: 45px
+        padding-bottom: 30px
+        +res-bl(lg)
+            margin-bottom: 0
+            padding-bottom: 0
+            padding-top: 35px
+
+.border-right
+    border-right: 1px solid $border-color
+    +res-bl(lg)
+        border-right: 0
+
+.border-left
+    border-left: 1px solid $border-color
+    +res-bl(lg)
+        border-left: 0
