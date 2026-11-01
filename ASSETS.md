@@ -4,10 +4,10 @@ The four service photographs were created with the built-in image generation too
 
 The final project paths are:
 
-- public/assets/images/manhenga/connectivity.webp
-- public/assets/images/manhenga/network.webp
-- public/assets/images/manhenga/security.webp
-- public/assets/images/manhenga/support.webp
+- assets/images/manhenga/connectivity.webp
+- assets/images/manhenga/network.webp
+- assets/images/manhenga/security.webp
+- assets/images/manhenga/support.webp
 
 The Manhenga Tech SVG wordmarks and favicon are code-native brand artwork in the green and lime reference palette. The original Tekprof abstract hero background is retained as an alpha mask and tinted lime in CSS; decorative CSS shapes and icon fonts are retained from the uploaded template. Service photographs keep their natural colours.
 

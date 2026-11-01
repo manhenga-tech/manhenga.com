@@ -1,0 +1,12 @@
+Manhenga Tech — HTML verification, 1 November 2026
+
+PASS: 23 HTML content pages, 22 sitemap URLs, per-page SEO metadata, one H1 per page, image alt text, internal links, local assets and supplied contact targets.
+PASS: Local CSS image/font dependencies and native JavaScript syntax.
+PASS: Desktop More dropdown keyboard controls and navigation.
+PASS: Store category/search/reset/sorting, product selection, basket quantities, WhatsApp draft content, persistence after reload and removal.
+PASS: Blog search and article navigation.
+PASS: Mobile store and contact layouts without horizontal overflow; mobile Team/Store/Contact dropdown and navigation.
+
+The ZIP is a plain HTML/CSS/JavaScript website. It contains no React/Next.js runtime, Node startup file or server dependencies. The AOS animation library is retained with its license.
+
+Contact actions open phone/email/WhatsApp applications. Test messages were not sent. Hosting account access, domain DNS and SSL setup remain with the business and its hosting provider.
