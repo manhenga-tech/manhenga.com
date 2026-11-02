@@ -23,3 +23,22 @@ Team content describes support responsibilities until verified staff names and p
 Canonicals, social metadata, schema and sitemap are configured for https://manhenga.com. Keep them current when adding or removing pages. System-font fallbacks are provided; Google Fonts supplies Inter and Hanken Grotesk. AOS scroll animations and their license are included.
 
 See CHECKS.txt and ASSETS.md for validation and asset details.
+
+
+CUSTOM 404 PAGE
+The personalised 404.html contains its own styles and logo, with links to the homepage, services, blog, store, team and contact details. Navigation uses root-relative paths so it works for missing addresses inside subfolders. The Apache .htaccess file already includes ErrorDocument 404 /404.html. Upload the new 404.html to the document root to replace the old error page. If editing an existing .htaccess, retain its other valid rules and add this error directive once.
+
+
+CONTACT AND SERVICE UPDATE — 2 November 2026
+Website email: support@manhenga.com
+Phone: +263 71 084 8354
+WhatsApp: https://wa.me/263710848354
+
+Networking content includes MikroTik routers and Cisco switches. CCTV content includes Dahua and Hikvision. IT Support & Security includes Sophos firewall configuration, antivirus setup, routine maintenance and ongoing support. Brands describe the equipment and software supported; no partnership or certification is claimed.
+
+
+Current business contact details
+Email: support@manhenga.com
+Phone: +263 71 084 8354
+WhatsApp: https://wa.me/263710848354
+Address: Aerodrome Shopping Center, Bindura, Zimbabwe

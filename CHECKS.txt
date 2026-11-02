@@ -10,3 +10,20 @@ PASS: Mobile store and contact layouts without horizontal overflow; mobile Team/
 The ZIP is a plain HTML/CSS/JavaScript website. It contains no React/Next.js runtime, Node startup file or server dependencies. The AOS animation library is retained with its license.
 
 Contact actions open phone/email/WhatsApp applications. Test messages were not sent. Hosting account access, domain DNS and SSL setup remain with the business and its hosting provider.
+
+Personalised 404 update — 2 November 2026
+The 404 document is self-contained, uses the Manhenga Tech logo and palette, and provides working page and contact links. One H1, noindex metadata, nested-path link resolution and the Apache ErrorDocument directive were verified. Desktop and mobile layouts were reviewed; the mobile page has no horizontal overflow. Managed preview does not process Apache .htaccess, so actual missing-URL HTTP status must be checked on cPanel after upload.
+
+
+CONTACT AND SERVICE UPDATE — 2 November 2026
+Website email: support@manhenga.com
+Phone: +263 71 084 8354
+WhatsApp: https://wa.me/263710848354
+
+Networking content includes MikroTik routers and Cisco switches. CCTV content includes Dahua and Hikvision. IT Support & Security includes Sophos firewall configuration, antivirus setup, routine maintenance and ongoing support. Brands describe the equipment and software supported; no partnership or certification is claimed.
+PASS: all served contact targets and LocalBusiness contacts, supported-technology descriptions, Cisco store search and quotation draft destinations verified. No old contact values remain in served text files.
+
+Mobile services index verified without horizontal overflow at 360 CSS pixels. A version query on the site script requests the new contact-link code after upload.
+
+Final contact details — 2 November 2026
+The website uses support@manhenga.com, +263 71 084 8354 and WhatsApp 263710848354. The displayed address is Aerodrome Shopping Center, Bindura, Zimbabwe. LocalBusiness metadata uses Aerodrome Shopping Center as streetAddress and Bindura as addressLocality. All served email links and the quotation JavaScript use the support inbox. Contact layouts were checked on desktop and a 360 CSS-pixel mobile viewport with no horizontal overflow.

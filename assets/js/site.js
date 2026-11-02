@@ -143,9 +143,9 @@
     basket.innerHTML = `<div class="basket-heading"><h2>Your quotation request</h2><span>${count} ${count === 1 ? 'item' : 'items'}</span></div>
       <div class="row"><div class="col-lg-8"><div class="basket-items">${items.map(basketRow).join('')}</div><div class="basket-bottom"><a class="read-more" href="${root}store/index.html">Continue browsing <i class="far fa-arrow-right" aria-hidden="true"></i></a><button type="button" class="remove-item" data-clear-basket>Clear basket</button></div></div>
       <div class="col-lg-4"><aside class="quote-summary"><h2>Request your quote</h2><p>Ask our team to confirm equipment, installation and pricing for your selection.</p>
-        <a class="theme-btn" data-quote-whatsapp href="https://wa.me/263779313243?text=${encodeURIComponent(message)}" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp" aria-hidden="true"></i> Continue on WhatsApp</a>
+        <a class="theme-btn" data-quote-whatsapp href="https://wa.me/263710848354?text=${encodeURIComponent(message)}" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp" aria-hidden="true"></i> Continue on WhatsApp</a>
         <p class="small-note">Opens a WhatsApp draft. Send the message there to reach our team. No payment is taken on this website.</p>
-        <a class="read-more" href="mailto:info@manhenga.com?subject=Equipment%20quotation%20request&amp;body=${encodeURIComponent(message)}">Request by email <i class="far fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="read-more" href="mailto:support@manhenga.com?subject=Equipment%20quotation%20request&amp;body=${encodeURIComponent(message)}">Request by email <i class="far fa-arrow-right" aria-hidden="true"></i></a>
       </aside></div></div>`;
   }
   $('#quote-basket')?.addEventListener('click', event => {
