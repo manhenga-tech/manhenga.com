@@ -27,3 +27,11 @@ Mobile services index verified without horizontal overflow at 360 CSS pixels. A 
 
 Final contact details — 2 November 2026
 The website uses support@manhenga.com, +263 71 084 8354 and WhatsApp 263710848354. The displayed address is Aerodrome Shopping Center, Bindura, Zimbabwe. LocalBusiness metadata uses Aerodrome Shopping Center as streetAddress and Bindura as addressLocality. All served email links and the quotation JavaScript use the support inbox. Contact layouts were checked on desktop and a 360 CSS-pixel mobile viewport with no horizontal overflow.
+
+
+LOGO AND FAVICON UPDATE — 11 November 2026
+PASS: 25 HTML documents use the supplied logo in 48 placements, with no remaining references to the old template wordmarks or embedded 404 favicon.
+PASS: Supplied logo PNG is preserved byte-for-byte. Starburst favicon SVG is valid, with ICO (16/32/48/64px), PNG (32px) and Apple touch (180px) exports.
+PASS: All local HTML links and asset paths resolve, including nested service/store/article pages and root-relative 404 assets.
+PASS: Browser review of desktop homepage, footer and custom 404 layout; mobile homepage at a 360px frame width, logo loading and navigation expansion. No horizontal overflow in the reviewed homepage layouts.
+Scope: branding and responsive logo sizing. Existing service content, scripts and quotation behaviour are unchanged. Production hosting and browser favicon caching are checked after the ZIP is uploaded to the web host.

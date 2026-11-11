@@ -9,7 +9,7 @@ The final project paths are:
 - assets/images/manhenga/security.webp
 - assets/images/manhenga/support.webp
 
-The Manhenga Tech SVG wordmarks and favicon are code-native brand artwork in the green and lime reference palette. The original Tekprof abstract hero background is retained as an alpha mask and tinted lime in CSS; decorative CSS shapes and icon fonts are retained from the uploaded template. Service photographs keep their natural colours.
+The active Manhenga Tech logo is the user-supplied green starburst PNG at `assets/images/manhenga/logo-starburst.png`, included unchanged. The `favicon.svg` and `icon.svg` assets are code-native SVG outlines traced from the supplied starburst symbol, without the lettering for clarity at small sizes. The ICO/PNG favicon fallbacks and Apple touch icon are raster exports of that SVG. The former template wordmarks have been removed. The original Tekprof abstract hero background is retained as an alpha mask and tinted lime in CSS; decorative CSS shapes and icon fonts are retained from the uploaded template. Service photographs keep their natural colours.
 
 ## Final generation prompts
 

@@ -1,1 +1,18 @@
 [hidden]{display:none!important}.html-note{font-size:14px}.quote-summary .theme-btn{margin-bottom:16px}
+
+/* Supplied Manhenga Tech stacked logo, 11 November 2026. */
+.manhenga-site .main-header .logo img{display:block;width:128px;max-width:128px;height:128px;object-fit:contain}
+.manhenga-site .main-header .logo{padding:4px 0}
+.manhenga-site .main-header .header-inner{min-height:136px}
+.manhenga-site .footer-logo a{display:inline-block;background:#fff;border-radius:8px;overflow:hidden;line-height:0}
+.manhenga-site .footer-logo img{display:block;width:168px;max-width:100%;height:168px;object-fit:contain}
+html{scroll-padding-top:150px}
+@media(max-width:991px){
+ .manhenga-site .main-header .logo img{width:104px;max-width:104px;height:104px}
+ .manhenga-site .main-header .header-inner{min-height:112px}
+ .manhenga-site .main-header .navbar-collapse.show{max-height:calc(100dvh - 176px);overflow-y:auto}
+ html{scroll-padding-top:126px}
+}
+@media(max-width:767px){
+ .manhenga-site .main-header .navbar-collapse.show{max-height:calc(100dvh - 112px)}
+}

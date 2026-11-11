@@ -1,6 +1,6 @@
 Manhenga Tech — plain HTML website
 
-This archive contains the complete website: 23 HTML pages, images, CSS, JavaScript, sitemap, robots.txt and a custom 404 page.
+This archive contains the complete website: 25 HTML documents (23 content pages and two 404 entry points), images, CSS, JavaScript, sitemap, robots.txt and a custom 404 page.
 
 INSTALL ON CPANEL
 1. Back up your existing website.
@@ -26,7 +26,7 @@ See CHECKS.txt and ASSETS.md for validation and asset details.
 
 
 CUSTOM 404 PAGE
-The personalised 404.html contains its own styles and logo, with links to the homepage, services, blog, store, team and contact details. Navigation uses root-relative paths so it works for missing addresses inside subfolders. The Apache .htaccess file already includes ErrorDocument 404 /404.html. Upload the new 404.html to the document root to replace the old error page. If editing an existing .htaccess, retain its other valid rules and add this error directive once.
+The personalised 404.html contains its own styles and uses the shared supplied logo, with links to the homepage, services, blog, store, team and contact details. Navigation uses root-relative paths so it works for missing addresses inside subfolders. The Apache .htaccess file already includes ErrorDocument 404 /404.html. Upload the new 404.html to the document root to replace the old error page. If editing an existing .htaccess, retain its other valid rules and add this error directive once.
 
 
 CONTACT AND SERVICE UPDATE — 2 November 2026
@@ -42,3 +42,11 @@ Email: support@manhenga.com
 Phone: +263 71 084 8354
 WhatsApp: https://wa.me/263710848354
 Address: Aerodrome Shopping Center, Bindura, Zimbabwe
+
+
+LOGO AND FAVICON UPDATE — 11 November 2026
+The supplied green starburst Manhenga Tech logo appears in the desktop/mobile header, footer and both 404 pages. The original full-colour PNG is included unchanged at assets/images/manhenga/logo-starburst.png.
+
+favicon.svg uses the matching green starburst without the small lettering so browser tabs remain recognisable. icon.svg is retained as a compatibility alias. All 25 HTML documents reference the favicon; ICO and PNG fallbacks and a 180px Apple touch icon use the matching starburst. Logo sizing is in assets/css/html-site.css; the 404 pages contain their own matching sizing rules.
+
+Upload/extract the whole ZIP so the updated HTML, CSS and new image files replace the existing files together. After upload, reload the site; cached browser-tab icons may require closing and reopening the tab.
