@@ -46,3 +46,27 @@ The user supplied `Photos-1-001.zip` and the Dynamics 365/Sophos graphics for th
 | `sophos-firewall.webp` | `images.jpeg` | Firewall card under IT Support & Security |
 
 All listed assets are in `assets/images/manhenga/`. Sophos remains under IT Support & Security; Dynamics 365 is under Business Software. The duplicate CCTV views, MP4 companions and older Dynamics 365 edition diagram are not published. The images do not imply manufacturer partnership, certification, a particular customer's identity or a currently available model. Original generated imagery remains for other existing uses.
+
+
+## Business Email & Cloud media — 13 November 2026
+
+| Website asset | Supplied source | Placement |
+| --- | --- | --- |
+| `microsoft-365-banner.webp` | `ms365.png` | Business Email & Cloud homepage/service cards and service feature |
+| `microsoft-365-apps.webp` | `6-awesome-microsoft-365-features.webp` | Microsoft 365 card on the Business Email & Cloud service page |
+| `google-workspace-apps.webp` | `images (2).png` | Google Workspace card on the Business Email & Cloud service page |
+
+These user-supplied graphics were converted to WebP without generative alteration or embedded metadata. Images are displayed with their full content visible. Supported-service descriptions do not imply vendor partnership or that every application is included in every subscription plan.
+
+
+## Networks & Wi-Fi media — 13 November 2026
+
+| Website asset | Supplied source | Placement |
+| --- | --- | --- |
+| `network-cabinet.webp` | `images (2)(1).jpeg` | Networking service, matching homepage/service cards and Wi-Fi planning guide |
+| `mikrotik-router.webp` | `2458_lg(1).png` | Networking equipment card and Wi-Fi store listing/detail |
+| `ruckus-access-point.webp` | `31w0mQM2WFL._AC.webp` | Networking service and Wi-Fi store equipment galleries |
+| `ubiquiti-round-access-point.webp` | `White-Minimalist-Girl-Quote-Instagram-Post66-1.png` | Networking service and Wi-Fi store equipment galleries |
+| `ubiquiti-wireless-access-point.webp` | `images (4).jpeg` | Networking service and Wi-Fi store equipment galleries |
+
+The supplied images are converted to WebP with transparent backgrounds preserved where present and embedded metadata omitted. Product images are displayed in full. The cabinet photo is an example, not a claim of work performed by Manhenga Tech. No specific model specifications, certifications, partnerships or current stock availability are asserted.

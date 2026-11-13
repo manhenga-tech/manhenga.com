@@ -31,3 +31,8 @@ html{scroll-padding-top:150px}
 .solution-card h4{font-size:22px;line-height:1.3;text-transform:none;margin:0 0 12px}
 .solution-card p{font-size:15px;line-height:1.75;margin:0}
 @media(max-width:575px){.solution-card-grid{grid-template-columns:1fr}.solution-card>img{height:190px}.solution-card>div{padding:20px}}
+
+/* Networking equipment gallery; preserve the full product images. */
+.manhenga-site .product-main-image img.equipment-product-image{background:#fff;padding:24px;border:1px solid #0e302d18}
+.equipment-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:767px){.equipment-gallery{grid-template-columns:1fr}}

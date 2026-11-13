@@ -46,3 +46,14 @@ PASS: Store search for D365 returns Business Software Setup.
 PASS: Sophos imagery and content appear under IT Support & Security; Business Software service/detail pages contain Dynamics 365 and no Sophos content.
 PASS: git diff --check.
 Scope: Repository source and local preview. Production hosting was not deployed or verified as part of these checks.
+
+
+CLOUD AND NETWORKING IMAGERY UPDATE — 13 November 2026
+PASS: All 25 HTML documents have valid local src/href targets, non-empty image alt text and no duplicate IDs.
+PASS: Desktop review of Microsoft 365/Google Workspace cards, networking equipment cards and the Wi-Fi store gallery; all images loaded.
+PASS: Cloud, networking and Wi-Fi store pages reviewed in 360px-wide frames. All three have no horizontal overflow and their image cards stack into one column.
+PASS: Store searches for Ruckus and Ubiquiti each return Wi-Fi Routers & Access Points.
+PASS: Supplied MikroTik transparency is preserved; optimized WebP assets retain the supplied image content.
+PASS: Previous CCTV, Dynamics 365 and Sophos assets and page updates are retained. Sophos remains under IT Support & Security.
+PASS: git diff --check.
+Scope: Complete static website ZIP, ready for upload. Production hosting was not deployed or verified.

@@ -54,3 +54,11 @@ Upload/extract the whole ZIP so the updated HTML, CSS and new image files replac
 
 SERVICE IMAGERY UPDATE — 13 November 2026
 Selected supplied CCTV photos replace the camera-related service, store and blog images. Dynamics 365 appears under Business Software. Sophos appears under IT Support & Security, including firewall and endpoint protection examples. New assets are optimized WebP files; diagrams and logos retain their full image content. See ASSETS.md for source mappings. Upload the updated HTML, assets/css/html-site.css and new assets/images/manhenga/ files together.
+
+
+BUSINESS EMAIL & CLOUD UPDATE — 13 November 2026
+Microsoft 365 imagery now appears on the Business Email & Cloud service page and matching homepage/service cards. The service page includes Microsoft 365 and Google Workspace cards using the supplied graphics. Existing CCTV, Dynamics 365 and Sophos updates are retained. Subscription plans, included apps and setup scope are confirmed in the quotation.
+
+
+NETWORKING IMAGERY UPDATE — 13 November 2026
+Supplied network-cabinet, MikroTik, Ruckus and Ubiquiti images now appear in Networks & Wi-Fi and the Wi-Fi equipment store pages. Product images retain their full outlines; the router/access point galleries adapt to narrow screens. Equipment models and availability are confirmed in the quotation.
