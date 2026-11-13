@@ -35,3 +35,14 @@ PASS: Supplied logo PNG is preserved byte-for-byte. Starburst favicon SVG is val
 PASS: All local HTML links and asset paths resolve, including nested service/store/article pages and root-relative 404 assets.
 PASS: Browser review of desktop homepage, footer and custom 404 layout; mobile homepage at a 360px frame width, logo loading and navigation expansion. No horizontal overflow in the reviewed homepage layouts.
 Scope: branding and responsive logo sizing. Existing service content, scripts and quotation behaviour are unchanged. Production hosting and browser favicon caching are checked after the ZIP is uploaded to the web host.
+
+
+SERVICE IMAGERY UPDATE — 13 November 2026
+PASS: All 25 HTML documents have valid local src/href targets and non-empty image alt text.
+PASS: Selected supplied images decode as WebP and contain no EXIF metadata.
+PASS: Desktop browser review of CCTV service/photo framing, Business Software/Dynamics 365, Sophos security cards, homepage cards and CCTV store image; all inspected images loaded.
+PASS: Three service pages reviewed in 360px-wide browser frames, with no horizontal overflow; Sophos cards stack on narrow screens.
+PASS: Store search for D365 returns Business Software Setup.
+PASS: Sophos imagery and content appear under IT Support & Security; Business Software service/detail pages contain Dynamics 365 and no Sophos content.
+PASS: git diff --check.
+Scope: Repository source and local preview. Production hosting was not deployed or verified as part of these checks.

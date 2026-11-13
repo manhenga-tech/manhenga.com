@@ -1,6 +1,6 @@
 # Manhenga Tech image assets
 
-The four service photographs were created with the built-in image generation tool for this website, then resized and compressed as WebP assets. They are illustrative service imagery, not photographs of claimed Manhenga Tech clients, staff or completed installations. No reference images were used.
+The four original service photographs were created with the built-in image generation tool for this website, then resized and compressed as WebP assets. They are illustrative service imagery, not photographs of claimed Manhenga Tech clients, staff or completed installations. No reference images were used.
 
 The final project paths are:
 
@@ -28,3 +28,21 @@ Use case: photorealistic-natural. Asset type: technology business website photo,
 ### Support
 
 Use case: photorealistic-natural. Asset type: technology business website photo, landscape composition. An editorial close-up of the hands of a Black IT technician carefully checking a desktop computer motherboard at a clean workbench, a laptop and screwdriver nearby, professional competent setting in a small Zimbabwean IT workshop, warm natural light, navy and neutral palette. Only hands visible, no identifiable person, no company uniforms, logos, legible text or watermarks. Realistic components and hands. Stock-style illustrative service imagery.
+
+
+## Supplied website media — 13 November 2026
+
+The user supplied `Photos-1-001.zip` and the Dynamics 365/Sophos graphics for this update. Selected images are converted to WebP without generative alteration; orientation is retained, photographic resolution is reduced for web delivery, and metadata is omitted. Responsive CSS controls presentation without changing the source photographs.
+
+| Website asset | Supplied source | Placement |
+| --- | --- | --- |
+| `cctv-exterior.webp` | `IMG_0344.HEIC` | CCTV service, homepage/service cards and CCTV article |
+| `cctv-dahua-equipment.webp` | `IMG_0308.HEIC` | CCTV store listing and detail |
+| `dynamics-365-logo.webp` | `images.png` | Business Software cards |
+| `dynamics-365-integration.webp` | `1785993856322-dynamics 365 integration.png` | Business Software service and store detail |
+| `sophos-logo.webp` | `sophos.jpg` | IT Support & Security cards |
+| `sophos-workspace.webp` | `sophos-workspace-partner-blog-icon-1600x960px.jpg` | IT Support & Security service feature |
+| `sophos-endpoint.webp` | `images (1).jpeg` | Endpoint protection card under IT Support & Security |
+| `sophos-firewall.webp` | `images.jpeg` | Firewall card under IT Support & Security |
+
+All listed assets are in `assets/images/manhenga/`. Sophos remains under IT Support & Security; Dynamics 365 is under Business Software. The duplicate CCTV views, MP4 companions and older Dynamics 365 edition diagram are not published. The images do not imply manufacturer partnership, certification, a particular customer's identity or a currently available model. Original generated imagery remains for other existing uses.

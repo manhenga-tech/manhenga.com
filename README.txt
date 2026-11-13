@@ -18,7 +18,7 @@ Edit index.html for the homepage and the corresponding index.html inside each pa
 
 The store opens WhatsApp/email quotation drafts for the visitor to send. It does not process payments or report message delivery. The basket uses browser local storage and requires JavaScript. If storage is blocked, selections work on the current page but do not persist across pages. Test basket persistence through an HTTP host; file:// browser storage behaviour varies.
 
-Team content describes support responsibilities until verified staff names and profiles are supplied. Images illustrate services rather than claimed company installations.
+Team content describes support responsibilities until verified staff names and profiles are supplied. Original generated images illustrate services. Selected user-supplied CCTV photographs now appear in camera-related sections; no customer identity or installation ownership is claimed.
 
 Canonicals, social metadata, schema and sitemap are configured for https://manhenga.com. Keep them current when adding or removing pages. System-font fallbacks are provided; Google Fonts supplies Inter and Hanken Grotesk. AOS scroll animations and their license are included.
 
@@ -50,3 +50,7 @@ The supplied green starburst Manhenga Tech logo appears in the desktop/mobile he
 favicon.svg uses the matching green starburst without the small lettering so browser tabs remain recognisable. icon.svg is retained as a compatibility alias. All 25 HTML documents reference the favicon; ICO and PNG fallbacks and a 180px Apple touch icon use the matching starburst. Logo sizing is in assets/css/html-site.css; the 404 pages contain their own matching sizing rules.
 
 Upload/extract the whole ZIP so the updated HTML, CSS and new image files replace the existing files together. After upload, reload the site; cached browser-tab icons may require closing and reopening the tab.
+
+
+SERVICE IMAGERY UPDATE — 13 November 2026
+Selected supplied CCTV photos replace the camera-related service, store and blog images. Dynamics 365 appears under Business Software. Sophos appears under IT Support & Security, including firewall and endpoint protection examples. New assets are optimized WebP files; diagrams and logos retain their full image content. See ASSETS.md for source mappings. Upload the updated HTML, assets/css/html-site.css and new assets/images/manhenga/ files together.
